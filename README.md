@@ -7,6 +7,14 @@ A small, dependency-free Python toolkit that turns truth and prediction interval
 
 実際にどのイベントが対応したかを説明する、時系列評価ツールです。許容時間を切り替えてスコアの変化を確認できます。
 
+## Article & live demo / 紹介記事と公開デモ
+
+- [紹介記事：データを分ける・評価する・公開する。Pythonの小さな確認ツールを3つ作りました](https://ryu-koda.com/blog/python-tools-splittrace-eventscore-notebook/) — Japanese overview of SplitTrace, EventScore Explorer, and Notebook Publish Check.
+- [公開デモをブラウザで開く / Open the live demo](https://ryu-koda.com/articles/python-tools/eventscore-demo.html) — Synthetic data only; no installation required.
+
+公開デモは合成データの出力例です。自分のファイルをアップロードする画面ではありません。
+The hosted demo is a sample report, not a file-upload service.
+
 ## Try the demo
 
 Open [`examples/demo.html`](examples/demo.html) in a browser after downloading the repository. All data is synthetic. At 0 seconds the demo has 2 matches, 3 false alarms and 2 misses. At 0.5 seconds it has 3 matches, 2 false alarms and 1 miss.
