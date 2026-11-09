@@ -1,0 +1,218 @@
+[
+  {
+    "tolerance_seconds": 0.0,
+    "tp": 2,
+    "fp": 3,
+    "fn": 2,
+    "precision": 0.4,
+    "recall": 0.5,
+    "f1": 0.4444444444444444,
+    "matches": [
+      {
+        "truth": "T1",
+        "prediction": "P1",
+        "reason": "overlap",
+        "overlap_seconds": 3.0,
+        "gap_seconds": 0,
+        "onset_offset_seconds": 1.0
+      },
+      {
+        "truth": "T3",
+        "prediction": "P3",
+        "reason": "overlap",
+        "overlap_seconds": 2.0,
+        "gap_seconds": 0,
+        "onset_offset_seconds": 1.0
+      }
+    ],
+    "missed": [
+      {
+        "id": "T2",
+        "reason": "no eligible prediction"
+      },
+      {
+        "id": "T4",
+        "reason": "no eligible prediction"
+      }
+    ],
+    "false_alarms": [
+      {
+        "id": "P2",
+        "reason": "no eligible truth"
+      },
+      {
+        "id": "P4",
+        "reason": "candidate assigned to another event"
+      },
+      {
+        "id": "P5",
+        "reason": "no eligible truth"
+      }
+    ],
+    "ambiguous_truth": [
+      "T3"
+    ]
+  },
+  {
+    "tolerance_seconds": 0.5,
+    "tp": 3,
+    "fp": 2,
+    "fn": 1,
+    "precision": 0.6,
+    "recall": 0.75,
+    "f1": 0.6666666666666666,
+    "matches": [
+      {
+        "truth": "T1",
+        "prediction": "P1",
+        "reason": "overlap",
+        "overlap_seconds": 3.0,
+        "gap_seconds": 0,
+        "onset_offset_seconds": 1.0
+      },
+      {
+        "truth": "T2",
+        "prediction": "P2",
+        "reason": "within tolerance",
+        "overlap_seconds": 0,
+        "gap_seconds": 0.5,
+        "onset_offset_seconds": 5.5
+      },
+      {
+        "truth": "T3",
+        "prediction": "P3",
+        "reason": "overlap",
+        "overlap_seconds": 2.0,
+        "gap_seconds": 0,
+        "onset_offset_seconds": 1.0
+      }
+    ],
+    "missed": [
+      {
+        "id": "T4",
+        "reason": "no eligible prediction"
+      }
+    ],
+    "false_alarms": [
+      {
+        "id": "P4",
+        "reason": "candidate assigned to another event"
+      },
+      {
+        "id": "P5",
+        "reason": "no eligible truth"
+      }
+    ],
+    "ambiguous_truth": [
+      "T3"
+    ]
+  },
+  {
+    "tolerance_seconds": 1.0,
+    "tp": 3,
+    "fp": 2,
+    "fn": 1,
+    "precision": 0.6,
+    "recall": 0.75,
+    "f1": 0.6666666666666666,
+    "matches": [
+      {
+        "truth": "T1",
+        "prediction": "P1",
+        "reason": "overlap",
+        "overlap_seconds": 3.0,
+        "gap_seconds": 0,
+        "onset_offset_seconds": 1.0
+      },
+      {
+        "truth": "T2",
+        "prediction": "P2",
+        "reason": "within tolerance",
+        "overlap_seconds": 0,
+        "gap_seconds": 0.5,
+        "onset_offset_seconds": 5.5
+      },
+      {
+        "truth": "T3",
+        "prediction": "P3",
+        "reason": "overlap",
+        "overlap_seconds": 2.0,
+        "gap_seconds": 0,
+        "onset_offset_seconds": 1.0
+      }
+    ],
+    "missed": [
+      {
+        "id": "T4",
+        "reason": "no eligible prediction"
+      }
+    ],
+    "false_alarms": [
+      {
+        "id": "P4",
+        "reason": "candidate assigned to another event"
+      },
+      {
+        "id": "P5",
+        "reason": "no eligible truth"
+      }
+    ],
+    "ambiguous_truth": [
+      "T3"
+    ]
+  },
+  {
+    "tolerance_seconds": 2.0,
+    "tp": 3,
+    "fp": 2,
+    "fn": 1,
+    "precision": 0.6,
+    "recall": 0.75,
+    "f1": 0.6666666666666666,
+    "matches": [
+      {
+        "truth": "T1",
+        "prediction": "P1",
+        "reason": "overlap",
+        "overlap_seconds": 3.0,
+        "gap_seconds": 0,
+        "onset_offset_seconds": 1.0
+      },
+      {
+        "truth": "T2",
+        "prediction": "P2",
+        "reason": "within tolerance",
+        "overlap_seconds": 0,
+        "gap_seconds": 0.5,
+        "onset_offset_seconds": 5.5
+      },
+      {
+        "truth": "T3",
+        "prediction": "P3",
+        "reason": "overlap",
+        "overlap_seconds": 2.0,
+        "gap_seconds": 0,
+        "onset_offset_seconds": 1.0
+      }
+    ],
+    "missed": [
+      {
+        "id": "T4",
+        "reason": "no eligible prediction"
+      }
+    ],
+    "false_alarms": [
+      {
+        "id": "P4",
+        "reason": "candidate assigned to another event"
+      },
+      {
+        "id": "P5",
+        "reason": "no eligible truth"
+      }
+    ],
+    "ambiguous_truth": [
+      "T3"
+    ]
+  }
+]

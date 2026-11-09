@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eventscore-explorer"
+version = "0.1.0"
+description = "Explain event-level time-series evaluation"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "Ryu Koda"}]
+readme = "README.md"
+dependencies = []
+
+[project.scripts]
+eventscore = "eventscore_explorer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Repository = "https://github.com/R-Koda/eventscore-explorer"
+Issues = "https://github.com/R-Koda/eventscore-explorer/issues"
