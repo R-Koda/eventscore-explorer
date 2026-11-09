@@ -1,6 +1,6 @@
 # Publishing eventscore-explorer
 
-Pending first release: configure the PyPI Trusted Publisher before running this workflow.
+The PyPI Trusted Publisher is configured for the repository and environment below. Run the workflow manually from main after checking a release.
 
 - PyPI project: `eventscore-explorer`
 - GitHub owner: `R-Koda`

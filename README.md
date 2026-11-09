@@ -31,6 +31,7 @@ The help screen confirms that the command is available. Install only the tools y
 
 ## Article & live demo / 紹介記事と公開デモ
 
+- [個別ガイド / EventScore Explorer：時系列の見逃し・誤検出を確かめる](https://ryu-koda.com/blog/eventscore-explorer-event-evaluation/)
 - [紹介記事：データを分ける・評価する・公開する。Pythonの小さな確認ツールを3つ作りました](https://ryu-koda.com/blog/python-tools-splittrace-eventscore-notebook/) — Japanese overview of SplitTrace, EventScore Explorer, and Notebook Publish Check.
 - [公開デモをブラウザで開く / Open the live demo](https://ryu-koda.com/articles/python-tools/eventscore-demo.html) — Synthetic data only; no installation required.
 
