@@ -7,6 +7,28 @@ A small, dependency-free Python toolkit that turns truth and prediction interval
 
 実際にどのイベントが対応したかを説明する、時系列評価ツールです。許容時間を切り替えてスコアの変化を確認できます。
 
+## Install from PyPI / pipでインストール
+
+Python 3.10 or later. Create and activate a virtual environment first:
+
+```sh
+python3 -m venv .venv
+```
+
+macOS / Linux: `source .venv/bin/activate`
+
+Windows PowerShell: `.venv\Scripts\Activate.ps1`
+
+```sh
+python -m pip install eventscore-explorer
+eventscore --help
+```
+
+The help screen confirms that the command is available. Install only the tools you need.
+[PyPI package](https://pypi.org/project/eventscore-explorer/) · [Source and examples](https://github.com/R-Koda/eventscore-explorer)
+
+サンプルCSV・Notebookなどはpipでは配置されません。公開デモはブラウザで開けます。自分でサンプルを実行する場合はGitHubの「Code → Download ZIP」で取得・展開し、READMEの相対パスをそのフォルダー内から指定してください。
+
 ## Article & live demo / 紹介記事と公開デモ
 
 - [紹介記事：データを分ける・評価する・公開する。Pythonの小さな確認ツールを3つ作りました](https://ryu-koda.com/blog/python-tools-splittrace-eventscore-notebook/) — Japanese overview of SplitTrace, EventScore Explorer, and Notebook Publish Check.
@@ -17,7 +39,7 @@ The hosted demo is a sample report, not a file-upload service.
 
 ## Try the demo
 
-Open [`examples/demo.html`](examples/demo.html) in a browser after downloading the repository. All data is synthetic. At 0 seconds the demo has 2 matches, 3 false alarms and 2 misses. At 0.5 seconds it has 3 matches, 2 false alarms and 1 miss.
+Open [`examples/demo.html`](https://github.com/R-Koda/eventscore-explorer/blob/main/examples/demo.html) in a browser after downloading the repository. All data is synthetic. At 0 seconds the demo has 2 matches, 3 false alarms and 2 misses. At 0.5 seconds it has 3 matches, 2 false alarms and 1 miss.
 
 ```sh
 python3 -m venv .venv
@@ -28,7 +50,7 @@ eventscore examples/truth.csv examples/predictions.csv --tolerances 0,0.5,1,2 --
 
 Without installing: prefix the same arguments with `PYTHONPATH=src python3 -m eventscore_explorer` instead of `eventscore`.
 
-Python 3.10+. Runtime has no third-party dependencies. This project is not yet published to PyPI.
+Python 3.10+. Runtime has no third-party dependencies.
 
 ## Input
 
